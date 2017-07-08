@@ -13,3 +13,6 @@ def generate_password():
         new_password = new_password + letters_list[random_integer] + str(number_list[random_integer])
 
     return new_password
+# Function to store new accounts and passwords
+def store_password(new_account, new_password):
+    passwords[new_account] = new_password
